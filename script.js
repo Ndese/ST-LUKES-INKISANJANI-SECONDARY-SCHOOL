@@ -3,6 +3,16 @@ function welcomeMessage() {
     "Welcome to St. Luke's Inkisanjani School! Thank you for visiting our website."
     );
 }
+const logo = document.querySelector(".logo");
+
+logo.addEventListener("mouseover", () => {
+    logo.style.transform = "scale(1.1)";
+    logo.style.transition = "0.3s";
+});
+
+logo.addEventListener("mouseout", () => {
+    logo.style.transform = "scale(1)";
+});
 
 document
 .getElementById("contactForm")

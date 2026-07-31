@@ -10,7 +10,6 @@ body{
     font-family:'Times New Roman', Times, serif;
     background-color: lightblue;
 }
-
 header{
     background:lightblue;
     display:flex;
@@ -20,6 +19,20 @@ header{
     position:sticky;
     top:0;
     z-index:1000;
+}
+.logo-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.logo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    object-fit:cover;
+    background:white;
+    padding:5px;
 }
 h1{
     color:white;
@@ -73,7 +86,7 @@ nav ul li a:hover{
     height:90vh;
     background:linear-gradient(rgba(187, 212, 175, 0.5),
     rgba(153, 140, 226, 0.356)),
-    url('/IMG_20230917_92457.jpg');
+    url('IMG_20230917_92457.jpg');
     background-size:cover;
     background-position:center;
     display:flex;
